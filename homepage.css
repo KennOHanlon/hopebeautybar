@@ -8,11 +8,121 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.centerGrid{
+    position: relative;
+    height: auto;
+    width: auto;
+}
+.container{
+    display:grid;
+    grid-template-columns: 48vw 48vw;
+    grid-template-rows: 48vh 48vh;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vh;
+    padding-bottom: 12px;
+}
+.homePageImageTopLeft{
+    border-radius: 25px;
+    width: 48vw;
+    height: 48vh;
+    overflow: hidden;
+    max-width: 550px;
+    min-width: 400px;
+    float: right;
+}
+.homePageImageTopLeft:hover{
+    filter: blur(4px);
+    transition: 0.5s ease-in-out;
+}
+.homePageImageBottomLeft:hover{
+    filter: blur(4px);
+    transition: 0.5s ease-in-out;
+}
+.homePageImageTopRight:hover{
+    filter: blur(4px);
+    transition: 0.5s ease-in-out;
+}
+.homePageImageBottomRight:hover{
+    filter: blur(4px);
+    transition: 0.5s ease-in-out;
+}
+.headerBackground{
+    background-color: #FFE8D6;
+}
+.homePageImageBottomLeft{
+    border-radius: 25px;
+    width: 48vw;
+    height: 48vh;
+    overflow: hidden;
+    max-width: 550px;
+    min-width: 400px;
+    float: right;
+}
+.homePageImageTopRight{
+    border-radius: 25px;
+    width: 48vw;
+    height: 48vh;
+    overflow: hidden;
+    max-width: 550px;
+    min-width: 400px;
+    float: left;
+}
+.homePageImageBottomRight{
+    border-radius: 25px;
+    width: 48vw;
+    height: 48vh;
+    overflow: hidden;
+    max-width: 550px;
+    min-width: 400px;
+    float: left;
+}
+footer{
+    height:40px;
+    background-color: #FFE8D6;
+}
+#homeTopLeft{
+    border: solid;
+    border-width: 1vw;
+    border-top: none;
+    border-left: none;
+    border-color: #FAF5F0;
+
+}
+#homeTopRight{
+
+    border: solid;
+    border-width: 1vw;
+    border-top: none;
+    border-right: none;
+    border-color: #FAF5F0;
+}
+#homeBottomLeft{
+
+    border: solid;
+    border-width: 1vw;
+    border-bottom: none;
+    border-left: none;
+    border-color: #FAF5F0;
+}
+#homeBottomRight{
+
+    border: solid;
+    border-width: 1vw;
+    border-bottom: none;
+    border-right: none;
+    border-color: #FAF5F0;
+}
+#image {
+    width: 50%;
+    height: 50%;
+    background-image: url('photos/lexiAtWork.png');
+    overflow: hidden;
+}
 
 .centerLogo{
     position: relative;
-    width: 50vw;
-    height: 50vw;
+    width: 30vw;
+    height: 30vw;
 }
 .overlay {
     height: 100%;
