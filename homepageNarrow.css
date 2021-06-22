@@ -6,15 +6,22 @@ body {
     background-image:url("photos/homePageBackg.png");
     vertical-align: middle;
 }
-
+.nav{
+    max-width: 60%;
+    display: inline-block;
+}
+.navRight{
+    float: right;
+}
 .centerWrapper{
     display: inline-block;
     vertical-align: middle;
-    height: 85%;
+    height: 80%;
 }
 .headerBackground{
     background-color: transparent;
     color: #3F4238;
+    height: 85px;
 
 }
 .footer{
@@ -26,6 +33,19 @@ body {
     background-color: transparent;
 }
 
+.headerIcon{
+    max-width: 100px;
+    min-width: 80px;
+    width: 30vw;
+    height: auto;
+    float: right;
+    padding-right:10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+
 .footerIcon{
     width:60px;
     height: 33.75px;
@@ -35,11 +55,11 @@ body {
 }
 
 .footerIconSocials{
-    width:35px;
-    height: 33.75px;
+    max-width: 70px;
+    width:5vw;
+    height: auto;
     padding-right:10px;
     vertical-align: middle;
-    background-image: url("photos/onlineBooking.png");
 }
 .footerIconSocials:hover{
     filter: hue-rotate(90deg);
@@ -217,8 +237,8 @@ body {
 }
 
 .centerLogo{
-    width: 40vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
     vertical-align: middle;
 
 }
@@ -281,6 +301,11 @@ body {
 
 @media screen and (max-width: 829px){
     .hideOnNarrow{
+        display: none;
+    }
+}
+@media screen and (min-width: 830px){
+    .hideOnFullSize{
         display: none;
     }
 }
