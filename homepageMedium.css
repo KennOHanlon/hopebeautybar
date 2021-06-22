@@ -1,11 +1,28 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+.aboutNav{
+    width: 180px;
+    height: 64.5px;
+    padding-left: 30px;
+}
+.pricingNav{
+    width: 180px;
+    height: 64.5px;
+    padding-left: 10px;
+}
+
+.aboutNav:hover{
+    filter: hue-rotate(90deg);
+}
+.pricingNav:hover{
+    filter: hue-rotate(90deg);
+}
 
 .centerWrapper{
     display: inline-block;
     vertical-align: middle;
-    height: 85%;
+    height: 80%;
 }
 .headerBackground{
     background-color: transparent;
@@ -59,7 +76,7 @@ body {
     text-decoration: none;
     padding-left: 2vw;
 }
-.phoneNumber{
+.facebook{
     display: inline-block;
     vertical-align: middle;
     color: #A5A58D;
@@ -287,12 +304,12 @@ body {
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 829px){
     .hideOnNarrow{
         display: none;
     }
 }
-@media screen and (min-width: 701px){
+@media screen and (min-width: 830px){
     .hideOnFullSize{
         display: none;
     }

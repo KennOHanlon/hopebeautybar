@@ -86,7 +86,7 @@ body {
     text-decoration: none;
     padding-left: 2vw;
 }
-.phoneNumber{
+.facebook{
     display: inline-block;
     vertical-align: middle;
     color: #A5A58D;
@@ -279,7 +279,7 @@ body {
     }
 }
 
-@media screen and (max-width: 675px){
+@media screen and (max-width: 829px){
     .hideOnNarrow{
         display: none;
     }
