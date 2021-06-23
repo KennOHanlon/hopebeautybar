@@ -39,7 +39,6 @@ body {
     width: 30vw;
     height: auto;
     float: right;
-    padding-right:10px;
     vertical-align: middle;
     display: inline-block;
 }
@@ -55,10 +54,11 @@ body {
 }
 
 .footerIconSocials{
-    max-width: 70px;
-    width:5vw;
+    min-width: 40px;
+    max-width: 50px;
+    width:8vw;
     height: auto;
-    padding-right:10px;
+    padding-right: 1.3vw;
     vertical-align: middle;
 }
 .footerIconSocials:hover{

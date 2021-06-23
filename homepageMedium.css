@@ -21,10 +21,10 @@ body {
 }
 
 .aboutNav:hover{
-    filter: hue-rotate(90deg);
+    filter: brightness(55%) hue-rotate(90deg);
 }
 .pricingNav:hover{
-    filter: hue-rotate(90deg);
+    filter: brightness(55%) hue-rotate(90deg);
 }
 
 .centerWrapper{
@@ -127,13 +127,13 @@ body {
     width: 10vw;
     height: auto;
     float: right;
-    clear: right;
+
     vertical-align: middle;
     display: inline-block;
 }
 
 .headerIcon:hover{
-    filter: hue-rotate(90deg);
+    filter: brightness(55%) hue-rotate(90deg);
 }
 
 .footerIcon{
@@ -145,6 +145,7 @@ body {
 }
 
 .footerIconSocials{
+    min-width: 50px;
     max-width: 70px;
     width:5vw;
     height: auto;
