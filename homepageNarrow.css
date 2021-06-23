@@ -62,11 +62,11 @@ body {
     vertical-align: middle;
 }
 .footerIconSocials:hover{
-    filter: hue-rotate(90deg);
+    filter: brightness(55%) hue-rotate(90deg);
 }
 
 .footerIcon:hover{
-    filter: hue-rotate(90deg);
+    filter: brightness(55%) hue-rotate(90deg);
 }
 
 .centerWrapperPhotos{

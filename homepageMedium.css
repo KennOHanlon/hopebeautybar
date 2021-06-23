@@ -154,7 +154,7 @@ body {
 }
 
 .footerIconSocials:hover{
-    filter: hue-rotate(90deg);
+    filter: brightness(75%) hue-rotate(90deg);
 }
 
 .footerIcon:hover{
