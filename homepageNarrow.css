@@ -43,6 +43,9 @@ body {
     display: inline-block;
 }
 
+.headerIcon:hover{
+    filter: brightness(55%) hue-rotate(90deg);
+}
 
 
 .footerIcon{
@@ -169,66 +172,7 @@ body {
 .bodyBackground{
     background-color: #FAF5F0;
 }
-.homePageImageBottomLeft{
-    border-radius: 25px;
-    width: 46vw;
-    height: 46vh;
-    overflow: hidden;
-    max-width: 550px;
-    min-width: 400px;
-    float: right;
-}
-.homePageImageTopRight{
-    border-radius: 25px;
-    width: 46vw;
-    height: 46vh;
-    overflow: hidden;
-    max-width: 550px;
-    min-width: 400px;
-    float: left;
-}
-.homePageImageBottomRight{
-    border-radius: 25px;
-    width: 46vw;
-    height: 46vh;
-    overflow: hidden;
-    max-width: 550px;
-    min-width: 400px;
-    float: left;
-}
 
-#homeTopLeft{
-    border: solid;
-    border-width: 1vw;
-    border-top: none;
-    border-left: none;
-    border-color: #FAF5F0;
-
-}
-#homeTopRight{
-
-    border: solid;
-    border-width: 1vw;
-    border-top: none;
-    border-right: none;
-    border-color: #FAF5F0;
-}
-#homeBottomLeft{
-
-    border: solid;
-    border-width: 1vw;
-    border-bottom: none;
-    border-left: none;
-    border-color: #FAF5F0;
-}
-#homeBottomRight{
-
-    border: solid;
-    border-width: 1vw;
-    border-bottom: none;
-    border-right: none;
-    border-color: #FAF5F0;
-}
 #image {
     width: 50%;
     height: 50%;
@@ -314,4 +258,65 @@ body {
     margin-top: -30px;
     height: 50vw;
     width: 50vw;
+}
+
+.homePageImageBottomLeft{
+    border-radius: 25px;
+    width: 46vw;
+    height: 46vh;
+    overflow: hidden;
+    max-width: 550px;
+    min-width: 400px;
+    float: right;
+}
+.homePageImageTopRight{
+    border-radius: 25px;
+    width: 46vw;
+    height: 46vh;
+    overflow: hidden;
+    max-width: 550px;
+    min-width: 400px;
+    float: left;
+}
+.homePageImageBottomRight{
+    border-radius: 25px;
+    width: 46vw;
+    height: 46vh;
+    overflow: hidden;
+    max-width: 550px;
+    min-width: 400px;
+    float: left;
+}
+
+#homeTopLeft{
+    border: solid;
+    border-width: 1vw;
+    border-top: none;
+    border-left: none;
+    border-color: #FAF5F0;
+
+}
+#homeTopRight{
+
+    border: solid;
+    border-width: 1vw;
+    border-top: none;
+    border-right: none;
+    border-color: #FAF5F0;
+}
+#homeBottomLeft{
+
+    border: solid;
+    border-width: 1vw;
+    border-bottom: none;
+    border-left: none;
+    border-color: #FAF5F0;
+}
+#homeBottomRight{
+
+    border: solid;
+    border-width: 1vw;
+    border-bottom: none;
+    border-right: none;
+    border-color: #FAF5F0;
 }
