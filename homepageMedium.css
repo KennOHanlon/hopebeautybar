@@ -43,7 +43,7 @@ body {
     left: 0;
     bottom: 50px;
     width:100%;
-    height: 100px;
+    height: 70px;
     color: #3F4238;
     background-color: transparent;
 }
@@ -109,11 +109,12 @@ body {
     display: inline-block;
 }
 .navRight{
-    float: right;
-    margin-left: -300px;
-}
-.socialIcons{
     text-align: center;
+
+}
+
+.socialIcons{
+    float: right;
     position: relative;
 
 }
@@ -136,9 +137,9 @@ body {
 }
 
 .headerIcon{
-    max-width: 120px;
+    max-width: 200px;
     min-width: 100px;
-    width: 10vw;
+    width: 20vw;
     height: auto;
     float: right;
 
@@ -160,8 +161,8 @@ body {
 }
 
 .footerIconSocials{
-    min-width: 50px;
-    max-width: 60px;
+    min-width: 40px;
+    max-width: 50px;
     width:5vw;
     height: auto;
     padding-right:10px;
