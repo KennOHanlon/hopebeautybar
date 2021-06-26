@@ -30,12 +30,12 @@ body {
 .centerWrapper{
     display: inline-block;
     vertical-align: middle;
-    height: 80%;
+    height: 70%;
 }
 .headerBackground{
     background-color: transparent;
     color: #3F4238;
-    height: 85px;
+    height: 75px;
 
 }
 
@@ -43,7 +43,7 @@ body {
     left: 0;
     bottom: 50px;
     width:100%;
-    height: 50px;
+    height: 100px;
     color: #3F4238;
     background-color: transparent;
 }
@@ -100,6 +100,7 @@ body {
     color: #A5A58D;
     text-decoration: none;
     padding-left: 10px;
+    padding-left: 10px;
     padding-right: 2vw;
     margin-right: 0%;
 }
@@ -109,9 +110,21 @@ body {
 }
 .navRight{
     float: right;
+    margin-left: -300px;
 }
 .socialIcons{
-    float: right;
+    text-align: center;
+    position: relative;
+
+}
+.socialIcons::before{
+    content:"";
+    background-color: aqua;
+    position: absolute;
+}
+
+.socialIcons:hover::before{
+    filter: blur(2px);
 }
 
 .footerIconOLD{
@@ -123,17 +136,19 @@ body {
 }
 
 .headerIcon{
+    max-width: 120px;
     min-width: 100px;
     width: 10vw;
     height: auto;
     float: right;
 
-    vertical-align: middle;
+    vertical-align: top;
     display: inline-block;
 }
 
 .headerIcon:hover{
-    filter: brightness(55%) hue-rotate(90deg);
+    filter: drop-shadow(4px 4px 10px white) blur(0);
+    opacity: 1;
 }
 
 .footerIcon{
@@ -146,15 +161,17 @@ body {
 
 .footerIconSocials{
     min-width: 50px;
-    max-width: 70px;
+    max-width: 60px;
     width:5vw;
     height: auto;
     padding-right:10px;
     vertical-align: middle;
+    opacity: .75;
 }
 
 .footerIconSocials:hover{
-    filter: brightness(75%) hue-rotate(90deg);
+    filter: drop-shadow(4px 4px 10px white) blur(0);
+    opacity: 1;
 }
 
 .footerIcon:hover{
