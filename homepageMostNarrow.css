@@ -68,7 +68,7 @@ footer {
 
 .innerFooter .logoContainer {
     left: 0;
-    width: 33%;
+    width: 27%;
     float: left;
     height: 100%;
     display: block;
@@ -80,12 +80,13 @@ footer {
     text-align: center;
 }
 .innerFooter .footerBooking{
-    width: 34%;
+    width: 46%;
     height: 100%;
     display: inline-block;
     float: left;
     text-align: center;
     font-size: 12pt;
+
 
 }
 .innerFooter .footerBooking a{
@@ -105,7 +106,7 @@ footer {
     transition: 200ms;
 }
 .innerFooter .footerIcont {
-    width: 33%;
+    width: 27%;
     height: 100%;
     display: inline-block;
     text-align: right;
@@ -151,6 +152,7 @@ footer {
     filter: drop-shadow(4px 4px 10px white) blur(0);
     opacity: 1;
 }
+
 
 
 .footerIcon{
@@ -237,7 +239,10 @@ footer {
 .socialIcons{
     float: right;
     position: relative;
-
+}
+.socialIconsDisplay{
+    float: right;
+    position: relative;
 }
 
 .socialIcons:hover::before{
@@ -348,7 +353,7 @@ footer {
     font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 470px) {
     .overlay a {
         font-size: 20px
     }
@@ -360,6 +365,30 @@ footer {
     }
 }
 
+@media screen and (min-width: 481px){
+    .socialIconsDisplay{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    footer{
+        max-height: 80px;
+        min-height: 50px;
+        height: 17vw;
+    }
+    .innerFooter .logoContainer {
+        width: 0%;
+    }
+    .innerFooter .footerBooking {
+        width: 100%;
+    }
+    .innerFooter .footerIcont {
+        width: 0%;
+    }
+
+}
 @media screen and (max-width: 829px){
     .hideOnNarrow{
         display: none;
@@ -367,11 +396,6 @@ footer {
 }
 @media screen and (min-width: 830px){
     .hideOnFullSize{
-        display: none;
-    }
-}
-@media screen and (min-width: 450px){
-    .socialIconsDisplay{
         display: none;
     }
 }
