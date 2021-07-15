@@ -77,9 +77,11 @@ body {
 
 .bodyWrapper{
     display: inline-grid;
+    grid-template-rows: 15vh auto;
     vertical-align: middle;
+    min-width: 664px;
     height: 80%;
-    width: 30vw;
+    width: 60vw;
     background-color: #FFE8D6;
     opacity: .9;
 }
@@ -88,6 +90,30 @@ body {
     color: #3F4238;
     height: 75px;
 
+}
+
+.bodyTitle{
+    margin-bottom: 0;
+    color: #3F4238;
+    height: 100%;
+}
+.contactRow{
+    height: 15vh;
+}
+.contactTitle{
+    font-weight: bold;
+    vertical-align: top;
+    text-align: justify;
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+.contactContent{
+    vertical-align: top;
+    text-align: justify;
+    width: 75%;
+    padding-right: 10px;
+    padding-left: 15px;
 }
 
 .bookingButton{
@@ -258,6 +284,7 @@ footer {
 .socialIcons{
     float: right;
     position: relative;
+
 }
 
 .socialIcons::before{
@@ -515,6 +542,9 @@ footer {
 @media screen and (min-width: 450px){
     .socialIconsDisplay{
         display: none;
+    }
+    .facebook{
+        padding-right: 2vw;
     }
 }
 

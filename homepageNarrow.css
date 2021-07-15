@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-
+    padding-bottom: 70px;
 }
 
 .bodyBackground{
@@ -34,10 +34,11 @@ body {
 
 .bodyWrapper{
     display: inline-grid;
+    grid-template-rows: 15vh auto;
     vertical-align: middle;
     height: 80%;
     width: 80vw;
-    background-color: #FAF5F0;
+    background-color: #FFE8D6;
     opacity: .9;
 }
 .headerBackground{
@@ -238,6 +239,29 @@ footer {
     float: right;
     position: relative;
 
+}
+.bodyTitle{
+    margin-bottom: 0;
+    color: #3F4238;
+    height: 100%;
+}
+.contactRow{
+    height: 15vh;
+}
+.contactTitle{
+    font-weight: bold;
+    vertical-align: top;
+    text-align: justify;
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+.contactContent{
+    vertical-align: top;
+    text-align: justify;
+    width: 75%;
+    padding-right: 10px;
+    padding-left: 15px;
 }
 
 .socialIcons:hover::before{
