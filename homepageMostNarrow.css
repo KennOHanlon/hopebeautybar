@@ -421,7 +421,7 @@ footer {
     .bodyWrapper{
         min-width: 320px;
         height: auto;
-        grid-template-rows: 23vw auto;
+        grid-template-rows: 25vw auto;
         padding-bottom: 20px;
 
     }
